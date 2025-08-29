@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var quebrada = false
+        function mudaLampada (tipo) {
+            if (tipo == 1) {
+                arquivo = "_imagens/lampada-acesa.jpg";
+            }
+            if (tipo == 2) {
+                arquivo = "_imagens/lampada-apagada.jpg";
+            }
+            if (tipo == 3) {
+                arquivo = "_imagens/lampada-quebrada.jpg";
+            } 
+            if (!quebrada) {
+                document.getElementById("luz").src= arquivo; /*Essa primeira parte só 
+                funciona se a variavel quebrada estiver falsa*/
+                if (tipo == 3) {
+                    quebrada= true; /*Quando a lampada é clicada 
+                    1-alteração da cariavel arquico para a imagem da lampada quebrada 
+                    2- a variavel quebrada ainda esta falsa por isso há a alteração do 
+                    src para o arquivo que está com a imagem da lampada quebrada 
+                    3- com a condicional de parametro para tipo três colocando a varial quebrada 
+                    como verdadeira o teste lógico que muda o src da lampada para de funcionar*/
+                }
+            }    
+        }        
+    </script>
+</head>
+<body>
+    <h1>Acenda a lâmpada</h1>
+    <img src="_imagens/lampada-apagada.jpg" id="luz" onmousemove="mudaLampada(1)" onmouseout="mudaLampada(2)" onclick="mudaLampada(3)"/>
+</body>
+</html>
