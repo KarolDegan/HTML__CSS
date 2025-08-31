@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root{
     --branco-titulo:#FFFFFF ;
     --branco-texto:#F9F9F9;
     --fundo: #040814;
     --botao:#167BF7;
     --cinza:#C0C0C0;
+    --fonte-principal: 'Inter';
 }
 *{
     margin:0;
@@ -13,12 +16,17 @@
 body{
     background-color: var(--fundo);
     color: var(--branco-texto);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .principal{
     background-image: url(./img/Background.png);
     background-repeat: no-repeat;
     background-size:contain;
+    align-items: center;
+    text-align: center; /*não alinha apenas texto mas tudo o que está dentro de um elemento de bloco. */
 }
 
 .container{
@@ -34,9 +42,115 @@ body{
     text-decoration: none;
     color: var(--branco-titulo);
     display:block;
+    margin-bottom: 1em;
 }
 
 .botao_secundario{
     background-color: transparent;
     border:2px solid var(--branco-titulo);
+}
+
+.container__aviso{
+    font-size: 12px;
+    color: var(--cinza);
+
+
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem{
+    margin:1em 0 2em 0; /*é um relógio*/
+}
+
+.container__caixa{
+    margin:0 6em;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__imagem{
+    width:80%;
+}
+
+.descricao__titulo{
+    font-size:48px;
+    font-weight: 700;
+    color: var(--branco-titulo);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto{
+    color: var(--branco-texto);
+}
+
+.botao_terceario{
+    display:inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao{
+    padding: 2em;
+}
+
+.dispositivos__lista{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-size: 48px;
+    color: var(--branco-titulo);
+}
+
+.lista__item{
+    font-size: 32px;
+    color: var(--branco-titulo);
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+    margin: 9em 7.5em 6em 7.5em;
+
+}
+
+.rodape__logo{
+    width: 8%;
+    margin-bottom: 1em;
+}
+
+.rodape__lista{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    list-style-type: none;
+}
+
+
+.lista__link{
+    font-size: 16px;
+    color: var(--branco-titulo);
+    text-decoration: none;
+}
+
+.rodape__texto{
+    color:var(--cinza);
+    font-size: 14px;
 }
