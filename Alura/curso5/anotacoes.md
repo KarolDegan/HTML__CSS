@@ -47,8 +47,10 @@ grid-columns-end:
 primeiro definir o grid-template-columns no container
 depois definir o espaçamento que eles ocupam 
 
-
 ## Aula 5
 
 - github pages para subir o projeto
-- 
+
+## Responsividade
+
+as vezes não colocar um tamanho para a imagem é a melhor opção
