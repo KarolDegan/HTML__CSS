@@ -34,7 +34,7 @@ Este código adiciona a palavra "Atenção: " em vermelho e negrito antes do con
 
 2. ::first-line:
 
-Elementos: Elementos de bloco (como <p>, <div>, <h1>, etc.).
+Elementos: Elementos de bloco (como `<p>`, `<div>`, `<h1>`, etc.).
 Uso: Permite estilizar a primeira linha de um texto em um elemento. O que define "a primeira linha" depende do tamanho da tela, da largura do elemento, etc.
 Exemplo:
 
@@ -45,11 +45,11 @@ p::first-line {
 }
 ```
 
-Este código formata a primeira linha de todos os parágrafos (<p>) com letras maiúsculas pequenas e cor verde.
+Este código formata a primeira linha de todos os parágrafos (`<p>`) com letras maiúsculas pequenas e cor verde.
 
 3. ::first-letter:
 
-Elementos: Elementos de bloco (como <p>, <div>, <h1>, etc.).
+Elementos: Elementos de bloco (como `<p>`, `<div>`, `<h1>`, etc.).
 Uso: Permite estilizar a primeira letra de um texto em um elemento.
 Exemplo:
 

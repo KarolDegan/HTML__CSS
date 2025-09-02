@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>AluraBooks</title>
 </head>
 <body>
@@ -39,5 +40,43 @@
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+           <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+           
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./img/ApacheKafka.svg" alt="livro sobre apache kafka e spring boot"></div>
+                <div class="swiper-slide"><img src="./img/Javascript.svg" alt="livro sobre Javascript assertivo"></div>
+                <div class="swiper-slide"><img src="./img/Liderança.svg" alt="livro sobre liderança em Design"></div>
+                <div class="swiper-slide"><img src="./img/Nodejs.svg" alt="livro sobre Nodejs"></div>
+                <div class="swiper-slide"><img src="./img/ReactNative.svg" alt="livro sobre ReactNative"></div>
+                <div class="swiper-slide"><img src="./img/Tuning.svg" alt="livro sobre turnig de SQL"></div>
+                <div class="swiper-slide"><img src="./img/UX.svg" alt="livro sobre UX estrategico"></div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+        });
+    </script>
 </body>
 </html>
