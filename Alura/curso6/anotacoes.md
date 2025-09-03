@@ -10,6 +10,36 @@ Ao testar tudo que foi feito, foi possível detectar algumas margens entre os el
 
 ### A diferença entre : e :: reside no que eles representam
 
+### display-inline-block
+https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-display-inline-block-4e6cba2f19d4
+
+### ~ conbinador CSS
+
+é chamado de combinador de irmãos, Ele seleciona todos os elementos irmãos (que estão no mesmo nível do DOM, ou seja, dentro do mesmo elemento pai) que aparecem depois do elemento de referência.
+
+“Pegue todo .lista-menu que estiver no mesmo nível de .conteiner__botao e aparecer depois dele, e force display: block.
+
+### + 
+
+seleciona somente o próximo irmão imediato.
+
+<div class="conteiner">
+  <button class="conteiner__botao">Menu</button>
+  <ul class="lista-menu">Lista 1</ul>
+  <ul class="lista-menu">Lista 2</ul>
+  <ul class="lista-menu">Lista 3</ul>
+</div>
+
+.conteiner__botao + .lista-menu {
+  display: block;
+}
+
+somente a primeira .lista-menu que vier logo em seguida ao .conteiner__botao será afetada.
+
+###
+
+Alternativa correta! Isso ai! Ao usar o atributo for, com o valor igual ao id do input, você está associando a label com o input. Dessa maneira, ao clicar na imagem que está dentro dessa label, irá interagir com o checkbox, fazendo essa detecção do clique do usuário.
+
 : (Pseudo-classes): São usadas para selecionar elementos com base em um certo estado.  Por exemplo, :hover para quando o mouse está sobre um elemento, :active quando um elemento está sendo ativado (clicado), ou :checked para um checkbox que está marcado.
 
 :: (Pseudo-elementos): São usados para estilizar partes específicas de um elemento, que não existem como elementos separados na estrutura HTML. Eles permitem inserir conteúdo ou estilizar partes que normalmente não seriam acessíveis. Exemplos comuns são ::before e ::after para inserir conteúdo antes ou depois de um elemento, e ::first-line para estilizar a primeira linha de um texto.
