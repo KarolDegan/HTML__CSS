@@ -146,3 +146,6 @@ Este código faz com que o texto selecionado em qualquer parte da página tenha 
 - Seu posicionamento segue a primeira caixa ancestral que tenha position diferente de static. Se não houver (ou for static), a referência é o canto superior esquerdo do documento (viewport).
 
 - Requer cautela: pode causar sobreposições ou desalinhamentos inesperados se usado sem referência clara. 
+
+## Aula 3
+
