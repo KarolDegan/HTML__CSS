@@ -45,3 +45,15 @@ hr{
         color: var(--cinza-escuro);
     }
 }
+
+@media screen and (min-width: 1440px){
+    .lista-rodape{
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em;
+    }
+
+    .rodape{
+        padding: 3em;
+    }
+    
+}

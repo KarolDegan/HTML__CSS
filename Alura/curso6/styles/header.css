@@ -58,8 +58,8 @@
     display:none;
 }
 
-.container__titulo, .opcoes {
-display: none;
+.container__titulo, .opcoes, .container__texto{
+    display: none;
 }
 
 
@@ -111,5 +111,29 @@ display: none;
         display: none;
         
     }
+
+    
+
+    }
+
+    @media screen and (min-width: 1440px){
+        .cabecalho{
+            padding: 0 5%;
+        }
+        .container__link{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--preto);
+        }
+
+        .opcoes{
+            margin-right: auto;
+            padding-left: 4em;
+        }
+
+        .container__texto{
+            display: block;
+        }
 
 }

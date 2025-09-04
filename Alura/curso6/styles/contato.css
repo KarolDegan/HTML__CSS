@@ -63,5 +63,14 @@
 
 
 }
-    
+
+@media screen and (min-width: 1440px){
+    .contato{
+        padding: 3em 20vw;
+    }
+
+    .contato__titulo{
+        font-size: 32px;
+    }
+}
     
