@@ -13,6 +13,8 @@
     --laranja:#EB9B00;
     --preto: rgba(0,0,0,0.85);
     --cinza:#C4C4C4 ;
+    --cinza-escuro: #474646;
+    --cinza-medio: #858585;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: 'Poppins', sans-serif;
     --fonte-secundaria: 'Josefin Sans', sans-serif;
