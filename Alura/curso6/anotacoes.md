@@ -147,5 +147,17 @@ Este código faz com que o texto selecionado em qualquer parte da página tenha 
 
 - Requer cautela: pode causar sobreposições ou desalinhamentos inesperados se usado sem referência clara. 
 
-## Aula 3
+## Aula 5
+
+### > combinador de filho direto.
+
+```css
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer
+```
+
+Quando o input do .container__botao estiver marcodo como checked
+“Pegue o filho de um .container__rotulo, que é um .cabecalho__menu-hamburguer, que esteja no mesmo nível que .container__botao e venha depois dele”.
+
+-  Ele seleciona apenas os elementos que são filhos imediatos do elemento anterior
+
 
