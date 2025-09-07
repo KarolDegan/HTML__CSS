@@ -47,27 +47,32 @@
 
 /* AGENDA */
 
-.agenda__lista{
-    display:flex;
+.agenda__lista {
+    display: flex;
     flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 1.5rem;
     justify-content: center;
-    gap: 1.5rem;
 }
 
-.agenda__item{
+.agenda__item {
     flex-grow: 1;
-    max-width: 400px;
 }
 
-.agenda__botao{
-    
+/* RODAPE */
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodape__logo{
+    align-self: end;
 }
 
 @media screen and (min-width: 720px){
     /* MENU */
-    .menu{
-        
-    }
+    
 
     /* CATEGORIAS */
     .categorias__lista{
@@ -79,6 +84,12 @@
     /* EVENTOS */
 
     .eventos__lista{
+        justify-content: end;
+    }
+
+    /* AGENDA */
+    
+    .agenda__lista {
         justify-content: end;
     }
 
