@@ -58,7 +58,7 @@ Este desafio testa a compreensão integrada de múltiplos conceitos e a capacida
 - Animações CSS
 - Responsividade avançada
 
-![Screenshot](https://github.com/KarolDegan/HTML__CSS/blob/main/imagens%20e%20gifs/desafio10.png?raw=true)
+![Screenshot](https://github.com/KarolDegan/HTML__CSS/blob/main/imagens%20e%20gifs/desafio10.gif?raw=true)
 
 ---
 
