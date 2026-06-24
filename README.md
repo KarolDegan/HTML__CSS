@@ -70,7 +70,7 @@ Este é um projeto mais robusto que demonstra o desenvolvimento de um site compl
 
 #### 🖼️ Screenshots
 
-!(https://github.com/KarolDegan/HTML__CSS/blob/main/imagens%20e%20gifs/projeto-glass.gif?raw=true)
+![Demonstração](https://github.com/KarolDegan/HTML__CSS/blob/main/imagens%20e%20gifs/projeto-glass.gif?raw=true)
 
 #### ✨ Características
 
