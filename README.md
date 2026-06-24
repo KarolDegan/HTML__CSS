@@ -21,7 +21,7 @@ Este é um repositório dedicado aos estudos de **HTML** e **CSS**, com diversos
 
 Esta pasta contém diversos mini-projetos e estudos dirigidos que cobrem conceitos fundamentais e avançados de HTML e CSS.
 
-**Conteúdo esperado:**
+#### 💡 Conceitos Aplicados
 - Exercícios de HTML básico
 - Layouts CSS
 - Prototipagem de interfaces
@@ -35,9 +35,9 @@ Esta pasta contém diversos mini-projetos e estudos dirigidos que cobrem conceit
 
 Esta pasta demonstra o uso prático do Bootstrap para criar interfaces responsivas e bem estruturadas.
 
-<img src="" width="800" height="400"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+<img src="https://raw.githubusercontent.com/KarolDegan/HTML__CSS/refs/heads/main/imagens%20e%20gifs/bootstrap.png" width="800" height="400"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
 
-**Conteúdo esperado:**
+#### 💡 Conceitos Aplicados
 - Componentes do Bootstrap
 - Grid system
 - Navegação responsiva
@@ -52,10 +52,8 @@ Esta pasta demonstra o uso prático do Bootstrap para criar interfaces responsiv
 
 Este desafio testa a compreensão integrada de múltiplos conceitos e a capacidade de resolver problemas práticos.
 
-**Conteúdo:**
+#### 💡 Conceitos Aplicados
 - Integração de HTML e CSS
-- Layouts complexos
-- Animações CSS
 - Responsividade avançada
 
 ![Screenshot](https://github.com/KarolDegan/HTML__CSS/blob/main/imagens%20e%20gifs/desafio10.gif?raw=true)
