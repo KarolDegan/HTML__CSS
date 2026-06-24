@@ -58,7 +58,7 @@ Este desafio testa a compreensão integrada de múltiplos conceitos e a capacida
 - Animações CSS
 - Responsividade avançada
 
-<img src="" width="800" height="400"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+![Screenshot](https://github.com/KarolDegan/HTML__CSS/blob/main/imagens%20e%20gifs/desafio10.png?raw=true)
 
 ---
 
@@ -68,29 +68,17 @@ Este desafio testa a compreensão integrada de múltiplos conceitos e a capacida
 
 Este é um projeto mais robusto que demonstra o desenvolvimento de um site completo e profissional.
 
-#### 🖼️ Screenshots
+![Screenshot](https://github.com/KarolDegan/HTML__CSS/blob/main/imagens%20e%20gifs/projeto-glass.gif?raw=true)
 
-![Demonstração](https://github.com/KarolDegan/HTML__CSS/blob/main/imagens%20e%20gifs/projeto-glass.gif?raw=true)
-
-#### ✨ Características
-
-- ✅ Design moderno e responsivo
-- ✅ Navegação intuitiva
-- ✅ Galeria de imagens
-- ✅ Seções bem estruturadas
-- ✅ CSS sem dependências externas
 
 #### 💡 Conceitos Aplicados
 
 - HTML5 semântico
 - CSS3 moderno
 - Media queries para responsividade
-- Flexbox e Grid
 - Animações e transições CSS
 - Boas práticas de organização
 
-<img src="" width="800" height="400"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
----
 
 
 
