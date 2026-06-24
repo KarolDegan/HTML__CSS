@@ -139,7 +139,7 @@ Projetos desenvolvidos durante cursos da plataforma Alura, abrangendo desde os c
 
 #### Bootstrap
 
-<img src="https://raw.githubusercontent.com/KarolDegan/HTML__CSS/refs/heads/main/imagens%20e%20gifs/bootstrap.png" width="800" alt="Bootstrap">
+<img src="https://github.com/KarolDegan/HTML__CSS/blob/main/imagens%20e%20gifs/bootstrap10.gif?raw=true" width="800" alt="Bootstrap">
 
 * Grid System
 * Navbar
